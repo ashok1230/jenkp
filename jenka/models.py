@@ -6,6 +6,6 @@ class Student(models.Model):
    name = models.CharField(max_length=30)
    standard = models.IntegerField()
 
-class Teacher(models.Model):
+class Teachers(models.Model):
    name = models.CharField(max_length=30)
    subject = models.CharField(max_length=20)
