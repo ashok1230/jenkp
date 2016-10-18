@@ -5,7 +5,7 @@ from django.db import models
 class Student(models.Model):
    name = models.CharField(max_length=30)
    standard = models.IntegerField()
-   marks = models.IntegerField()
+   marks = models.IntegerField(null=True, blank=True)
    def __unicode__(self):
 	return self.name
 
