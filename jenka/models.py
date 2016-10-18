@@ -15,5 +15,5 @@ class Teacher(models.Model):
 
 class Subject(models.Model):
     name = models.CharField(max_length=20)
-    stan = models.CharField(max_length=30, null=True, blank=True)
+    standard = models.CharField(max_length=30, null=True, blank=True)
     
