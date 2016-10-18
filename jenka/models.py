@@ -14,4 +14,4 @@ class Teacher(models.Model):
 
 class Subject(models.Model):
     name = models.CharField(max_length=20)
-    sub_class = models.CharField(max_length=30, null=True, blank=True)
+    standard = models.CharField(max_length=30, null=True, blank=True)
